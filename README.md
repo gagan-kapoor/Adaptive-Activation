@@ -1,6 +1,6 @@
 # Novel Activation Function in ResNet18 (CIFAR-10 & Fashion-MNIST)
 
-This project implements a **custom ResNet-18 architecture** using TensorFlow/Keras and introduces a **novel activation function** that combines the strengths of ReLU and Tanh. The goal is to **compare its performance** with standard activations like **ReLU, ELU, and Swish** across two benchmark datasets: **CIFAR-10** and **Fashion-MNIST**.
+This project implements a **custom ResNet-18 architecture** using TensorFlow/Keras and introduces a **novel activation function** that combines the strengths of ReLU and Tanh. The goal is to **compare its performance** with standard activations like **ReLU, ELU, Tanh and Swish** across two benchmark datasets: **CIFAR-10** and **Fashion-MNIST**.
 
 ---
 
@@ -8,7 +8,7 @@ This project implements a **custom ResNet-18 architecture** using TensorFlow/Ker
 
 - ✅ Novel custom activation function (`TanhReLU`) that smoothly replaces ReLU’s zero-negative gradient issue
 - ✅ Modular ResNet-18 architected from scratch using the Functional API
-- ✅ Drop-in replacement support for `ReLU`, `ELU`, `Swish`, and **custom activations**
+- ✅ Drop-in replacement support for `ReLU`, `ELU`, `Swish`, `Tanh` and **custom activations**
 - ✅ Side-by-side benchmarking on **CIFAR-10** and **Fashion MNIST**
 - ✅ Auto-logging of **loss**, **accuracy**, and **precision/recall/F1** to `.json` for reproducibility
 - ✅ Smoothed training/validation plots and final performance comparison
@@ -52,7 +52,7 @@ Both datasets are normalized to `[0, 1]` and loaded via `tensorflow.keras.datase
 - Precision
 - Recall
 - F1-Score
-- JSON logs per run (`relu_cifar10.json`, `swish_fashion.json`, etc.)
+- JSON logs per run
 
 ---
 ## Why This Matters
