@@ -1,10 +1,10 @@
-# 🔥 Novel Activation Function in ResNet18 (CIFAR-10 & Fashion-MNIST)
+# Novel Activation Function in ResNet18 (CIFAR-10 & Fashion-MNIST)
 
 This project implements a **custom ResNet-18 architecture** using TensorFlow/Keras and introduces a **novel activation function** that combines the strengths of ReLU and Tanh. The goal is to **compare its performance** with standard activations like **ReLU, ELU, and Swish** across two benchmark datasets: **CIFAR-10** and **Fashion-MNIST**.
 
 ---
 
-## 🚀 Project Highlights
+## Project Highlights
 
 - ✅ Novel custom activation function (`TanhReLU`) that smoothly replaces ReLU’s zero-negative gradient issue
 - ✅ Modular ResNet-18 architected from scratch using the Functional API
@@ -15,7 +15,7 @@ This project implements a **custom ResNet-18 architecture** using TensorFlow/Ker
 
 ---
 
-## 🧠 Custom Activation Function Details
+## Custom Activation Function Details
 
 The custom activation function is defined as:
 f(x) = x if x ≥ 0
@@ -28,7 +28,7 @@ f(x) = x if x ≥ 0
 
 ---
 
-## 🧪 Datasets
+## Datasets
 
 - **CIFAR-10**  
   - 60,000 32x32 RGB images  
@@ -55,16 +55,16 @@ Both datasets are normalized to `[0, 1]` and loaded via `tensorflow.keras.datase
 - JSON logs per run (`relu_cifar10.json`, `swish_fashion.json`, etc.)
 
 ---
-💡 Why This Matters
+Why This Matters
 Tiny changes like replacing ReLU with better activations can improve real-world model performance.
 This project can be adapted for:
 Retail image pipelines (like Walmart or Amazon)
 Mobile networks (small but fast)
 Feature extraction tasks in vision-based AI
-👤 Author
+
+Author
+
 Gagan Kapoor
-
-
 
 ⭐ Like this?
 Give a ⭐️ to support this work and help others discover better activations!
