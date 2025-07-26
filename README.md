@@ -55,15 +55,14 @@ Both datasets are normalized to `[0, 1]` and loaded via `tensorflow.keras.datase
 - JSON logs per run (`relu_cifar10.json`, `swish_fashion.json`, etc.)
 
 ---
-Why This Matters
-Tiny changes like replacing ReLU with better activations can improve real-world model performance.
-This project can be adapted for:
-Retail image pipelines (like Walmart or Amazon)
-Mobile networks (small but fast)
-Feature extraction tasks in vision-based AI
+## Why This Matters
+- Tiny changes like replacing ReLU with better activations can improve real-world model performance.
+- This project can be adapted for:
+- Retail image pipelines (like Walmart or Amazon)
+- Mobile networks (small but fast)
+- Feature extraction tasks in vision-based AI
 
-Author
-
+## Author
 Gagan Kapoor
 
 ⭐ Like this?
